@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Sharma - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="loading-screen">
+        <div class="loading-animation"></div>
+    </div>
+
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Keshav Sharma">Keshav Sharma</h1>
+                <h2 class="typewriter">Full Stack Developer</h2>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+            <div class="hero-background">
+                <canvas id="hero-canvas"></canvas>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">Results-driven Full Stack Developer with 2+ years of experience in developing robust web applications using MERN, MEAN stacks, and .NET Core. Proficient in Node.js, React.js, Angular, Next.js, and C#. Strong problem-solving skills and a collaborative approach to delivering high-quality software solutions.</p>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-container">
+                <div class="skill">JavaScript</div>
+                <div class="skill">React.js</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">Angular</div>
+                <div class="skill">C#</div>
+                <div class="skill">.NET Core</div>
+                <div class="skill">MongoDB</div>
+                <div class="skill">SQL</div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Freelance Full Stack Developer</h3>
+                        <p>Self-Employed | Sept 2023 - Present</p>
+                        <ul>
+                            <li>Developed and deployed scalable web applications using Node.js, Express.js, React.js, and MongoDB</li>
+                            <li>Implemented responsive designs ensuring cross-browser compatibility and optimal user experience</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Full-Stack Developer</h3>
+                        <p>Planetcast Media Services, Noida | Feb 2022 - Sept 2023</p>
+                        <ul>
+                            <li>Built and maintained enterprise-level applications using C#, .NET Core, ASP.NET, Next.js, React, and Angular</li>
+                            <li>Designed and optimized MS SQL Server databases, developing efficient stored procedures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Hostel Auction Website</h3>
+                    <p>Developed a full-stack platform using Node.js, Express.js, React.js, Redux, and MongoDB</p>
+                </div>
+                <div class="project-card">
+                    <h3>Travel Website</h3>
+                    <p>Created a travel blog with REST API backend and JWT authentication</p>
+                </div>
+                <div class="project-card">
+                    <h3>Movie App</h3>
+                    <p>Built a cross-platform application using Node.js, Express.js, React.js, Redux, and MongoDB</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Keshav Sharma. All rights reserved.</p>
+    </footer>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Your custom script -->
+    <script src="app.js"></script>
+</body>
+</html>
